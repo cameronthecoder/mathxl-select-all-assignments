@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "MathXL Select All Assignments",
+    "version": "1.0",
+    "description": "Automatically select 'All Assignments' from the dropdown upon logging into MathXL.",
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.mathxlforschool.com/Student/DoAssignments.aspx*"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
