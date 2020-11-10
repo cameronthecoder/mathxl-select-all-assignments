@@ -1,0 +1,32 @@
+body, html {
+    width: 500px;
+    background: #005E7C;
+    font-family: 'Rubik', sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width: 420px;
+    padding: 10px;
+    color: white;
+    background: #040F16;
+    text-align: center;
+}
+a {
+    color: #0094C6;
+}
+button {
+    padding: 10px;
+    color: white;
+    width: 90px;
+    background: #0094C6;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+button:hover {
+    background: #00568F;
+}
